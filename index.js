@@ -326,6 +326,7 @@ function install(cwd, name, version, cb) {
   // command, if it's appended behind, it could cause installations to fail.
   // I've seen this happen with git based installations
   command += ' --parseable'; // Parsable output
+  command += ' --no-save'; // do not save to package
   command +=' install '+ installation.trim();
 
   debug('spawning npm: '+ command + ', in cwd: '+ cwd);

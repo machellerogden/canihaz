@@ -1,6 +1,6 @@
 {
   "author": "Arnout Kazemier <info@3rd-Eden.com> (3rd-Eden.com)",
-  "name": "canihaz",
+  "name": "canihaz-nosave",
   "description": "canihaz allows you to lazy install npm modules because not every dependency is needed.",
   "keywords": [
     "npm",
